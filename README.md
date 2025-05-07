@@ -28,7 +28,7 @@ Try the live demo (hosted via Hugging Face Spaces):
 
 | Input Image | Output (Transparent BG) |
 |-------------|--------------------------|
-| ![input](input.png) | ![output](output.png) |
+| <img src="input.jpg" width="200"/> | <img src="output.png" width="200"/> |
 
 ---
 ## 🧪 How it Works
@@ -91,15 +91,6 @@ Once launched, it will open a Gradio interface with three tabs:
 - **BiRefNet** from [ZhengPeng7/BiRefNet](https://huggingface.co/ZhengPeng7/BiRefNet)
 - Segmentation-based background removal
 - Highly accurate with clean edge detection and mask generation
-
----
-
-## 🔧 TODO
-
-- [ ] Add support for [RMBG-2.0](https://huggingface.co/briaai/RMBG-2.0)
-- [ ] Batch processing
-- [ ] REST API endpoint (FastAPI)
-- [ ] Upload to Hugging Face Space (public)
 
 ---
 
