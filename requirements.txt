@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers==4.48.1
+
+Pillow==9.5.0
+numpy
+kornia
+einops
+timm
+requests
+
+gradio
+
+spaces==0.32.0
